@@ -1,0 +1,61 @@
+﻿@{
+    ViewData["Title"] = "Reports";
+    var appointmentsByMonth = ViewBag.AppointmentsByMonth as IEnumerable<dynamic>;
+}
+
+<h2>📊 Reports Dashboard</h2>
+<hr />
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="card p-3 mb-3">
+            <h5>Total Payments</h5>
+            <p class="fs-4 text-success"><b>@ViewBag.TotalPayments.ToString("C")</b></p>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card p-3 mb-3">
+            <h5>Patient Statistics</h5>
+            <p class="fs-4">@ViewBag.TotalPatients patients</p>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card p-3 mb-3">
+            <h5>Doctor Statistics</h5>
+            <p class="fs-4">@ViewBag.TotalDoctors doctors</p>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card p-3 mb-3">
+            <h5>Feedback Statistics</h5>
+            <p class="fs-4">@ViewBag.TotalFeedbacks feedbacks</p>
+            <p>⭐ Average Rating: <b>@ViewBag.AvgFeedbackRating.ToString("0.0")</b></p>
+        </div>
+    </div>
+</div>
+
+<hr />
+
+<h4>📅 Appointments by Month</h4>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Month</th>
+            <th>Year</th>
+            <th>No. of Appointments</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in appointmentsByMonth)
+        {
+            <tr>
+                <td>@System.Globalization.CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName((int)item.Month)</td>
+                <td>@item.Year</td>
+                <td>@item.Count</td>
+            </tr>
+        }
+    </tbody>
+</table>

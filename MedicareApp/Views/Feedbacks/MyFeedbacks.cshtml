@@ -1,0 +1,30 @@
+﻿@model IEnumerable<MedicareApp.Models.Feedback>
+
+@{
+    ViewData["Title"] = "My Feedbacks";
+}
+
+<h2>My Feedbacks</h2>
+<hr />
+
+<a asp-action="Create" class="btn btn-success mb-2">Give Feedback</a>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Message</th>
+            <th>Rating</th>
+            <th>Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var fb in Model)
+        {
+            <tr>
+                <td>@fb.Message</td>
+                <td>@fb.Rating / 5</td>
+                <td>@fb.Date.ToString("g")</td>
+            </tr>
+        }
+    </tbody>
+</table>

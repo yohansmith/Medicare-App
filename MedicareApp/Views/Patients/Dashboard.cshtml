@@ -1,0 +1,16 @@
+﻿@model MedicareApp.Models.Patient
+
+@{
+    ViewData["Title"] = "Patient Dashboard";
+}
+
+<div class="container mt-4">
+    <h2>Welcome, @Model.Name!</h2>
+    <p>Your profile is complete.</p>
+
+    <ul>
+        <li>Email: @Model.Email</li>
+        <li>Date of Birth: @Model.DOB.ToShortDateString()</li>
+        <li>Contact: @Model.Contact</li>
+    </ul>
+</div>

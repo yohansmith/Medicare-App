@@ -1,0 +1,19 @@
+﻿@model MedicareApp.Models.Appointment
+
+@{
+    ViewData["Title"] = "Edit Notes";
+}
+
+<h2>Add Consultation Notes</h2>
+<hr />
+
+<form asp-action="EditNotes" method="post">
+    <input type="hidden" asp-for="AppointmentID" />
+    <div class="form-group">
+        <label asp-for="Notes" class="control-label"></label>
+        <textarea asp-for="Notes" class="form-control" rows="4"></textarea>
+        <span asp-validation-for="Notes" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary mt-2">Save Notes</button>
+    <a asp-action="MyAppointments" class="btn btn-secondary mt-2">Cancel</a>
+</form>

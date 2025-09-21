@@ -1,0 +1,60 @@
+﻿@model IEnumerable<MedicareApp.Models.Appointment>
+
+@{
+    ViewData["Title"] = "My Appointments";
+}
+
+<h2>My Appointments</h2>
+<hr />
+
+<table class="table table-striped table-bordered">
+    <thead class="table-dark">
+        <tr>
+            <th>Patient Name</th>
+            <th>Email</th>
+            <th>Date</th>
+            <th>Status</th>
+            <th>Notes</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var appointment in Model)
+        {
+            <tr>
+                <td>@appointment.Patient?.Name</td>
+                <td>@appointment.Patient?.Email</td>
+                <td>@appointment.AppointmentDate.ToString("g")</td>
+                <td>
+                    @if (appointment.Status == "Confirmed")
+                    {
+                        <span class="badge bg-success">Confirmed</span>
+                    }
+                    else if (appointment.Status == "Cancelled" || appointment.Status == "CancelledByPatient")
+                    {
+                        <span class="badge bg-danger">Cancelled</span>
+                    }
+                    else if (appointment.Status == "Rescheduled")
+                    {
+                        <span class="badge bg-info text-dark">Rescheduled</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-warning text-dark">@appointment.Status</span>
+                    }
+                </td>
+
+                <td>@appointment.Notes</td>
+                <td>
+                    <form asp-action="UpdateStatus" method="post" style="display:inline;">
+                        <input type="hidden" name="id" value="@appointment.AppointmentID" />
+                        <button type="submit" name="status" value="Confirmed" class="btn btn-success btn-sm">Confirm</button>
+                        <button type="submit" name="status" value="Cancelled" class="btn btn-danger btn-sm">Cancel</button>
+                    </form>
+
+                    <a asp-action="EditNotes" asp-route-id="@appointment.AppointmentID" class="btn btn-primary btn-sm">Add Notes</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

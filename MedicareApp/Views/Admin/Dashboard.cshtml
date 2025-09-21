@@ -1,0 +1,65 @@
+﻿@model IEnumerable<MedicareApp.Models.Doctor>
+
+@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<div class="container mt-4">
+    <h2>Admin Dashboard</h2>
+    <p>Manage doctors and patients here.</p>
+
+    <!-- Doctors Section -->
+    <h3>Doctors</h3>
+    <a asp-controller="Doctors" asp-action="Create" class="btn btn-primary mb-3">Add Doctor</a>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Specialty</th>
+                <th>Fees</th>
+                <th>Availability</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var doctor in Model)
+            {
+                <tr>
+                    <td>@doctor.Name</td>
+                    <td>@doctor.Specialty</td>
+                    <td>@doctor.Fees</td>
+                    <td>@doctor.Availability</td>
+                    <td>
+                        <a asp-controller="Doctors" asp-action="Edit" asp-route-id="@doctor.DoctorID" class="btn btn-warning btn-sm">Edit</a>
+                        <a asp-controller="Doctors" asp-action="Delete" asp-route-id="@doctor.DoctorID" class="btn btn-danger btn-sm">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <!-- Patients Section -->
+    <h3 class="mt-5">Patients</h3>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>DOB</th>
+                <th>Contact</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var patient in ViewBag.Patients)
+            {
+                <tr>
+                    <td>@patient.Name</td>
+                    <td>@patient.DOB.ToShortDateString()</td>
+                    <td>@patient.Contact</td>
+                    <td>@patient.Email</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

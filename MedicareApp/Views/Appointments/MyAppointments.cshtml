@@ -1,0 +1,62 @@
+﻿@model IEnumerable<MedicareApp.Models.Appointment>
+
+@{
+    ViewData["Title"] = "My Appointments";
+}
+
+<h2>My Appointments</h2>
+<hr />
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Status</th>
+            <th>Doctor</th>
+            <th>Notes</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.AppointmentDate.ToString("f")</td>
+                <td>@item.Status</td>
+                <td>@item.Doctor?.Name</td>
+                <td>@item.Notes</td>
+                <td>
+                    @if (item.Status == "Pending" || item.Status == "Cancelled")
+                    {
+                        <a asp-action="Edit" asp-route-id="@item.AppointmentID" class="btn btn-warning btn-sm">Reschedule</a>
+                    }
+                    else if (item.Status == "Confirmed")
+                    {
+                        <span class="text-success">Confirmed by Doctor</span>
+                    }
+                    else if (item.Status == "Paid")
+                    {
+                        <span class="text-primary">Payment Completed</span>
+                    }
+
+                    <a asp-action="Details" asp-route-id="@item.AppointmentID" class="btn btn-info btn-sm">Details</a>
+
+                    @* Cancel option only if still Pending *@
+                    @if (item.Status == "Pending")
+                    {
+                        <a asp-action="Delete" asp-route-id="@item.AppointmentID" class="btn btn-danger btn-sm">Cancel</a>
+                    }
+
+                    @* Pay Now button if appointment is confirmed or rescheduled but unpaid *@
+                    @if ((item.Status == "Confirmed" || item.Status == "Rescheduled") && item.Payment == null)
+                    {
+                        <form asp-controller="Payments" asp-action="PayNow" method="post" style="display:inline;">
+                            <input type="hidden" name="id" value="@item.AppointmentID" />
+                            <button type="submit" class="btn btn-success btn-sm">Pay Now</button>
+                        </form>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

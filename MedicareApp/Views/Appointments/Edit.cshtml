@@ -1,0 +1,49 @@
+﻿@model MedicareApp.Models.Appointment
+
+@{
+    ViewData["Title"] = "Reschedule Appointment";
+}
+
+<h2>Reschedule Appointment</h2>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Edit" asp-route-id="@Model.AppointmentID" method="post">
+            @Html.AntiForgeryToken()
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="AppointmentID" />
+
+            <!-- Date/Time -->
+            <div class="form-group">
+                <label asp-for="AppointmentDate" class="control-label">New Date & Time</label>
+                <input asp-for="AppointmentDate" type="datetime-local" class="form-control" />
+                <span asp-validation-for="AppointmentDate" class="text-danger"></span>
+            </div>
+
+            <!-- Notes -->
+            <div class="form-group mt-3">
+                <label asp-for="Notes" class="control-label">Notes (optional)</label>
+                <textarea asp-for="Notes" class="form-control"></textarea>
+                <span asp-validation-for="Notes" class="text-danger"></span>
+            </div>
+
+            <!-- Keep hidden dropdowns for Doctor, Patient, Payment -->
+            <input type="hidden" asp-for="AppointmentID" />
+            <input type="hidden" asp-for="DoctorID" />
+            <input type="hidden" asp-for="PatientID" />
+            <input type="hidden" asp-for="PaymentID" />
+
+            <!-- Submit -->
+            <div class="form-group mt-3">
+                <input type="submit" value="Save Changes" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

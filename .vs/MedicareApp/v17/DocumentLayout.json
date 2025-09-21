@@ -1,0 +1,923 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\models\\payments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\models\\payments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\models\\doctorcreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\models\\doctorcreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\models\\appointments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\models\\appointments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\controllers\\feedbackscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\controllers\\feedbackscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\controllers\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\controllers\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\views\\payments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\views\\payments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\views\\doctors\\myappointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\views\\doctors\\myappointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\views\\payments\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\views\\payments\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\views\\payments\\paynow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\views\\payments\\paynow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\views\\patients\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\views\\patients\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\medicareapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\medicareapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\views\\reports\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\views\\reports\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\migrations\\20250903160824_addidentitytables.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\migrations\\20250903160824_addidentitytables.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\migrations\\20250902120541_addappointmentstable.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\migrations\\20250902120541_addappointmentstable.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\views\\feedbacks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\views\\feedbacks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\views\\appointments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\views\\appointments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\views\\feedbacks\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\views\\feedbacks\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\views\\appointments\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\views\\appointments\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\views\\appointments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\views\\appointments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\views\\doctors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\views\\doctors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\views\\doctors\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\views\\doctors\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\views\\doctors\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\views\\doctors\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\views\\appointments\\myappointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\views\\appointments\\myappointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Migrations\\20250905112854_AddUserIdToPatients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MedicareApp\\Migrations\\20250905112854_AddUserIdToPatients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\views\\patients\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\views\\patients\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Migrations\\20250902115551_AddPaymentAndFeedbackTables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MedicareApp\\Migrations\\20250902115551_AddPaymentAndFeedbackTables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Migrations\\20250902114054_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MedicareApp\\Migrations\\20250902114054_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\migrations\\20250902120111_addpaymentandfeedbacktables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\migrations\\20250902120111_addpaymentandfeedbacktables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\migrations\\20250902115054_addpatienttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\migrations\\20250902115054_addpatienttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\migrations\\20250902114637_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\migrations\\20250902114637_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\migrations\\20250903160824_addidentitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\migrations\\20250903160824_addidentitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\migrations\\20250905113045_adduseridtopatients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\migrations\\20250905113045_adduseridtopatients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\migrations\\20250905175441_adddoctoruserlink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\migrations\\20250905175441_adddoctoruserlink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|e:\\esoft\\topup\\dwd\\mvc proj - medicare pvt ltd\\medicareapp\\medicareapp\\migrations\\20250907050016_removepasswordhashfrompatients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF0E6DF-6614-419B-859E-449627C03789}|MedicareApp\\MedicareApp.csproj|solutionrelative:medicareapp\\migrations\\20250907050016_removepasswordhashfrompatients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Program.cs",
+              "RelativeDocumentMoniker": "MedicareApp\\Program.cs",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Program.cs",
+              "RelativeToolTip": "MedicareApp\\Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T15:18:51.33Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Payments\\Index.cshtml",
+              "RelativeDocumentMoniker": "MedicareApp\\Views\\Payments\\Index.cshtml",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Payments\\Index.cshtml",
+              "RelativeToolTip": "MedicareApp\\Views\\Payments\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T03:56:05.282Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DoctorCreateViewModel.cs",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Models\\DoctorCreateViewModel.cs",
+              "RelativeDocumentMoniker": "MedicareApp\\Models\\DoctorCreateViewModel.cs",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Models\\DoctorCreateViewModel.cs",
+              "RelativeToolTip": "MedicareApp\\Models\\DoctorCreateViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T15:10:19.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Models\\Doctor.cs",
+              "RelativeDocumentMoniker": "MedicareApp\\Models\\Doctor.cs",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Models\\Doctor.cs",
+              "RelativeToolTip": "MedicareApp\\Models\\Doctor.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAIwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T15:09:29.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FeedbacksController.cs",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Controllers\\FeedbacksController.cs",
+              "RelativeDocumentMoniker": "MedicareApp\\Controllers\\FeedbacksController.cs",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Controllers\\FeedbacksController.cs",
+              "RelativeToolTip": "MedicareApp\\Controllers\\FeedbacksController.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAqwHsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T04:02:53.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Feedback.cs",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Models\\Feedback.cs",
+              "RelativeDocumentMoniker": "MedicareApp\\Models\\Feedback.cs",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Models\\Feedback.cs",
+              "RelativeToolTip": "MedicareApp\\Models\\Feedback.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T04:05:00.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Models\\Patient.cs",
+              "RelativeDocumentMoniker": "MedicareApp\\Models\\Patient.cs",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Models\\Patient.cs",
+              "RelativeToolTip": "MedicareApp\\Models\\Patient.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T11:13:00.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Payments.cs",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Models\\Payments.cs",
+              "RelativeDocumentMoniker": "MedicareApp\\Models\\Payments.cs",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Models\\Payments.cs",
+              "RelativeToolTip": "MedicareApp\\Models\\Payments.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T04:32:04.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PaymentsController.cs",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Controllers\\PaymentsController.cs",
+              "RelativeDocumentMoniker": "MedicareApp\\Controllers\\PaymentsController.cs",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Controllers\\PaymentsController.cs",
+              "RelativeToolTip": "MedicareApp\\Controllers\\PaymentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T03:47:20.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PatientsController.cs",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Controllers\\PatientsController.cs",
+              "RelativeDocumentMoniker": "MedicareApp\\Controllers\\PatientsController.cs",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Controllers\\PatientsController.cs",
+              "RelativeToolTip": "MedicareApp\\Controllers\\PatientsController.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAqwHEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T23:10:29.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReportsController.cs",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Controllers\\ReportsController.cs",
+              "RelativeDocumentMoniker": "MedicareApp\\Controllers\\ReportsController.cs",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Controllers\\ReportsController.cs",
+              "RelativeToolTip": "MedicareApp\\Controllers\\ReportsController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T04:40:20.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Appointments.cs",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Models\\Appointments.cs",
+              "RelativeDocumentMoniker": "MedicareApp\\Models\\Appointments.cs",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Models\\Appointments.cs",
+              "RelativeToolTip": "MedicareApp\\Models\\Appointments.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvyUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T03:32:05.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DoctorsController.cs",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Controllers\\DoctorsController.cs",
+              "RelativeDocumentMoniker": "MedicareApp\\Controllers\\DoctorsController.cs",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Controllers\\DoctorsController.cs",
+              "RelativeToolTip": "MedicareApp\\Controllers\\DoctorsController.cs",
+              "ViewState": "AgIAAOwAAAAAAAAAAAAuwAkBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T23:04:53.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppointmentsController.cs",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Controllers\\AppointmentsController.cs",
+              "RelativeDocumentMoniker": "MedicareApp\\Controllers\\AppointmentsController.cs",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Controllers\\AppointmentsController.cs",
+              "RelativeToolTip": "MedicareApp\\Controllers\\AppointmentsController.cs",
+              "ViewState": "AgIAANcAAAAAAAAAAAAuwPQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T05:19:46.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "MedicareApp\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "MedicareApp\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T14:52:19.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MedicareApp\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MedicareApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T14:06:06.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Payments\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MedicareApp\\Views\\Payments\\Edit.cshtml",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Payments\\Edit.cshtml",
+              "RelativeToolTip": "MedicareApp\\Views\\Payments\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T23:12:01.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MyAppointments.cshtml",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Doctors\\MyAppointments.cshtml",
+              "RelativeDocumentMoniker": "MedicareApp\\Views\\Doctors\\MyAppointments.cshtml",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Doctors\\MyAppointments.cshtml",
+              "RelativeToolTip": "MedicareApp\\Views\\Doctors\\MyAppointments.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T23:26:43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MedicareApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MedicareApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwDsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T04:44:11.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PayNow.cshtml",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Payments\\PayNow.cshtml",
+              "RelativeDocumentMoniker": "MedicareApp\\Views\\Payments\\PayNow.cshtml",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Payments\\PayNow.cshtml",
+              "RelativeToolTip": "MedicareApp\\Views\\Payments\\PayNow.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T23:11:49.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Patients\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "MedicareApp\\Views\\Patients\\Dashboard.cshtml",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Patients\\Dashboard.cshtml",
+              "RelativeToolTip": "MedicareApp\\Views\\Patients\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T23:10:21.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "MedicareApp\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "MedicareApp\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T23:03:12.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MedicareApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MedicareApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T06:42:23.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "site.css",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "MedicareApp\\wwwroot\\css\\site.css",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "MedicareApp\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-09T05:24:26.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "MedicareApp\\Controllers\\AdminController.cs",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "MedicareApp\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T07:27:15.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "MedicareApp\\Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "MedicareApp\\Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T07:24:11.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "MedicareApp\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "MedicareApp\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T06:42:26.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Reports\\Index.cshtml",
+              "RelativeDocumentMoniker": "MedicareApp\\Views\\Reports\\Index.cshtml",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Reports\\Index.cshtml",
+              "RelativeToolTip": "MedicareApp\\Views\\Reports\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T04:41:25.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MedicareApp.csproj",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\MedicareApp.csproj",
+              "RelativeDocumentMoniker": "MedicareApp\\MedicareApp.csproj",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\MedicareApp.csproj",
+              "RelativeToolTip": "MedicareApp\\MedicareApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-09T03:13:55.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20250902120541_AddAppointmentsTable.Designer.cs",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Migrations\\20250902120541_AddAppointmentsTable.Designer.cs",
+              "RelativeDocumentMoniker": "MedicareApp\\Migrations\\20250902120541_AddAppointmentsTable.Designer.cs",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Migrations\\20250902120541_AddAppointmentsTable.Designer.cs",
+              "RelativeToolTip": "MedicareApp\\Migrations\\20250902120541_AddAppointmentsTable.Designer.cs",
+              "ViewState": "AgIAALMAAAAAAAAAAAD4v8IAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T04:42:51.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20250903160824_AddIdentityTables.Designer.cs",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Migrations\\20250903160824_AddIdentityTables.Designer.cs",
+              "RelativeDocumentMoniker": "MedicareApp\\Migrations\\20250903160824_AddIdentityTables.Designer.cs",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Migrations\\20250903160824_AddIdentityTables.Designer.cs",
+              "RelativeToolTip": "MedicareApp\\Migrations\\20250903160824_AddIdentityTables.Designer.cs",
+              "ViewState": "AgIAAC0BAAAAAAAAAAD4vzoBAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T04:42:59.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "bootstrap-grid.css.map",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+              "RelativeDocumentMoniker": "MedicareApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+              "RelativeToolTip": "MedicareApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARiQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-09-09T04:43:03.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "MedicareApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "MedicareApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-05T17:05:23.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Feedbacks\\Index.cshtml",
+              "RelativeDocumentMoniker": "MedicareApp\\Views\\Feedbacks\\Index.cshtml",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Feedbacks\\Index.cshtml",
+              "RelativeToolTip": "MedicareApp\\Views\\Feedbacks\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T04:26:59.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Feedbacks\\Create.cshtml",
+              "RelativeDocumentMoniker": "MedicareApp\\Views\\Feedbacks\\Create.cshtml",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Feedbacks\\Create.cshtml",
+              "RelativeToolTip": "MedicareApp\\Views\\Feedbacks\\Create.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T04:09:02.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Appointments\\Index.cshtml",
+              "RelativeDocumentMoniker": "MedicareApp\\Views\\Appointments\\Index.cshtml",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Appointments\\Index.cshtml",
+              "RelativeToolTip": "MedicareApp\\Views\\Appointments\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T04:02:00.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Appointments\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MedicareApp\\Views\\Appointments\\Delete.cshtml",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Appointments\\Delete.cshtml",
+              "RelativeToolTip": "MedicareApp\\Views\\Appointments\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T03:43:45.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Doctors\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MedicareApp\\Views\\Doctors\\Edit.cshtml",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Doctors\\Edit.cshtml",
+              "RelativeToolTip": "MedicareApp\\Views\\Doctors\\Edit.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAIwCoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T03:38:34.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Doctors\\Details.cshtml",
+              "RelativeDocumentMoniker": "MedicareApp\\Views\\Doctors\\Details.cshtml",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Doctors\\Details.cshtml",
+              "RelativeToolTip": "MedicareApp\\Views\\Doctors\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T03:37:38.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Doctors\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MedicareApp\\Views\\Doctors\\Delete.cshtml",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Doctors\\Delete.cshtml",
+              "RelativeToolTip": "MedicareApp\\Views\\Doctors\\Delete.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAIwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T03:37:37.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Appointments\\Details.cshtml",
+              "RelativeDocumentMoniker": "MedicareApp\\Views\\Appointments\\Details.cshtml",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Appointments\\Details.cshtml",
+              "RelativeToolTip": "MedicareApp\\Views\\Appointments\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T03:43:17.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "MyAppointments.cshtml",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Appointments\\MyAppointments.cshtml",
+              "RelativeDocumentMoniker": "MedicareApp\\Views\\Appointments\\MyAppointments.cshtml",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Appointments\\MyAppointments.cshtml",
+              "RelativeToolTip": "MedicareApp\\Views\\Appointments\\MyAppointments.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-07T05:25:16.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "20250907050016_RemovePasswordHashFromPatients.cs",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Migrations\\20250907050016_RemovePasswordHashFromPatients.cs",
+              "RelativeDocumentMoniker": "MedicareApp\\Migrations\\20250907050016_RemovePasswordHashFromPatients.cs",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Migrations\\20250907050016_RemovePasswordHashFromPatients.cs",
+              "RelativeToolTip": "MedicareApp\\Migrations\\20250907050016_RemovePasswordHashFromPatients.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA/wB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T05:00:16.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "MedicareApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "MedicareApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAIwG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T16:55:50.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "MedicareApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "MedicareApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-05T16:47:22.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "20250905175441_AddDoctorUserLink.cs",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Migrations\\20250905175441_AddDoctorUserLink.cs",
+              "RelativeDocumentMoniker": "MedicareApp\\Migrations\\20250905175441_AddDoctorUserLink.cs",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Migrations\\20250905175441_AddDoctorUserLink.cs",
+              "RelativeToolTip": "MedicareApp\\Migrations\\20250905175441_AddDoctorUserLink.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T17:54:41.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "20250905113045_AddUserIdToPatients.cs",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Migrations\\20250905113045_AddUserIdToPatients.cs",
+              "RelativeDocumentMoniker": "MedicareApp\\Migrations\\20250905113045_AddUserIdToPatients.cs",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Migrations\\20250905113045_AddUserIdToPatients.cs",
+              "RelativeToolTip": "MedicareApp\\Migrations\\20250905113045_AddUserIdToPatients.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAIwCcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T11:30:45.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20250905112854_AddUserIdToPatients.cs",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Migrations\\20250905112854_AddUserIdToPatients.cs",
+              "RelativeDocumentMoniker": "MedicareApp\\Migrations\\20250905112854_AddUserIdToPatients.cs",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Migrations\\20250905112854_AddUserIdToPatients.cs",
+              "RelativeToolTip": "MedicareApp\\Migrations\\20250905112854_AddUserIdToPatients.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T11:28:54.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Patients\\Details.cshtml",
+              "RelativeDocumentMoniker": "MedicareApp\\Views\\Patients\\Details.cshtml",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Views\\Patients\\Details.cshtml",
+              "RelativeToolTip": "MedicareApp\\Views\\Patients\\Details.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-05T11:21:35.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "20250903160824_AddIdentityTables.cs",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Migrations\\20250903160824_AddIdentityTables.cs",
+              "RelativeDocumentMoniker": "MedicareApp\\Migrations\\20250903160824_AddIdentityTables.cs",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Migrations\\20250903160824_AddIdentityTables.cs",
+              "RelativeToolTip": "MedicareApp\\Migrations\\20250903160824_AddIdentityTables.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T16:08:24.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "MedicareApp\\ScaffoldingReadMe.txt",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "MedicareApp\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-09-03T16:07:16.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "20250902120111_AddPaymentAndFeedbackTables.cs",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Migrations\\20250902120111_AddPaymentAndFeedbackTables.cs",
+              "RelativeDocumentMoniker": "MedicareApp\\Migrations\\20250902120111_AddPaymentAndFeedbackTables.cs",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Migrations\\20250902120111_AddPaymentAndFeedbackTables.cs",
+              "RelativeToolTip": "MedicareApp\\Migrations\\20250902120111_AddPaymentAndFeedbackTables.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T12:01:11.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "20250902115551_AddPaymentAndFeedbackTables.cs",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Migrations\\20250902115551_AddPaymentAndFeedbackTables.cs",
+              "RelativeDocumentMoniker": "MedicareApp\\Migrations\\20250902115551_AddPaymentAndFeedbackTables.cs",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Migrations\\20250902115551_AddPaymentAndFeedbackTables.cs",
+              "RelativeToolTip": "MedicareApp\\Migrations\\20250902115551_AddPaymentAndFeedbackTables.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T11:55:51.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "20250902115054_AddPatientTable.cs",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Migrations\\20250902115054_AddPatientTable.cs",
+              "RelativeDocumentMoniker": "MedicareApp\\Migrations\\20250902115054_AddPatientTable.cs",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Migrations\\20250902115054_AddPatientTable.cs",
+              "RelativeToolTip": "MedicareApp\\Migrations\\20250902115054_AddPatientTable.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T11:50:54.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "20250902114637_InitialCreate.cs",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Migrations\\20250902114637_InitialCreate.cs",
+              "RelativeDocumentMoniker": "MedicareApp\\Migrations\\20250902114637_InitialCreate.cs",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Migrations\\20250902114637_InitialCreate.cs",
+              "RelativeToolTip": "MedicareApp\\Migrations\\20250902114637_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T11:46:37.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "20250902114054_InitialCreate.cs",
+              "DocumentMoniker": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Migrations\\20250902114054_InitialCreate.cs",
+              "RelativeDocumentMoniker": "MedicareApp\\Migrations\\20250902114054_InitialCreate.cs",
+              "ToolTip": "E:\\ESOFT\\TopUp\\DWD\\MVC Proj - MediCare Pvt Ltd\\MedicareApp\\MedicareApp\\Migrations\\20250902114054_InitialCreate.cs",
+              "RelativeToolTip": "MedicareApp\\Migrations\\20250902114054_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T11:40:54.898Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

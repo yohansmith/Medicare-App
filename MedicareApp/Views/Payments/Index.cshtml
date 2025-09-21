@@ -1,0 +1,37 @@
+﻿@model IEnumerable<MedicareApp.Models.Payment>
+
+@{
+    ViewData["Title"] = "Payments";
+}
+
+<h1>Index</h1>
+
+<table class="table table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>Amount</th>
+            <th>Method</th>
+            <th>Date</th>
+            <th>Patient</th>
+            <th>Doctor</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Amount.ToString("C")</td>
+                <td>@item.Method</td>
+                <td>@item.Date.ToString("g")</td>
+                <td>@item.Appointment?.Patient?.Name</td>   <!-- ✅ Patient Name -->
+                <td>@item.Appointment?.Doctor?.Name</td>    <!-- ✅ Doctor Name -->
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.PaymentID">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.PaymentID">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.PaymentID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

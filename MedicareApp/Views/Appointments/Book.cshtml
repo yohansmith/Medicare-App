@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Book Appointment";
+    var doctors = ViewData["DoctorID"] as SelectList;
+}
+
+<div class="container mt-4">
+    <h2>Book Appointment</h2>
+    <form asp-action="Book" method="post">
+        <div class="form-group">
+            <label for="DoctorID">Select Doctor</label>
+            <select name="DoctorID" class="form-control" asp-items="doctors"></select>
+        </div>
+
+        <div class="form-group mt-3">
+            <label for="AppointmentDate">Select Date & Time</label>
+            <input type="datetime-local" name="AppointmentDate" class="form-control" required />
+        </div>
+
+        <div class="form-group mt-3">
+            <label for="Notes">Notes (Optional)</label>
+            <textarea name="Notes" class="form-control" rows="3"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-success mt-3">Book Appointment</button>
+    </form>
+</div>

@@ -1,0 +1,34 @@
+﻿@model IEnumerable<MedicareApp.Models.Feedback>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<table class="table table-striped">
+    <thead class ="table-dark">
+        <tr>
+            <th>Patient</th>
+            <th>Message</th>
+            <th>Rating</th>
+            <th>Date</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Patient?.Name</td>
+                <td>@item.Message</td>
+                <td>@item.Rating</td>
+                <td>@item.Date</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.FeedbackID">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.FeedbackID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

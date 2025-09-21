@@ -1,0 +1,33 @@
+﻿@model MedicareApp.Models.Patient
+
+@{
+    ViewData["Title"] = "Complete Patient Profile";
+}
+
+<div class="container mt-4">
+    <h2>Complete Your Profile</h2>
+    <form asp-action="CompleteProfile" method="post">
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="DOB"></label>
+            <input asp-for="DOB" class="form-control" type="date" />
+            <span asp-validation-for="DOB" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Contact"></label>
+            <input asp-for="Contact" class="form-control" />
+            <span asp-validation-for="Contact" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Email"></label>
+            <input asp-for="Email" class="form-control" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-success mt-3">Save Profile</button>
+    </form>
+</div>

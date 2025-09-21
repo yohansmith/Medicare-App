@@ -1,0 +1,120 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: url('/images/hospital-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+    /* Semi-transparent overlay */
+    body::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.7);
+        z-index: -1;
+    }
+
+/* Navbar styling */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.95) !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+    .navbar .nav-link {
+        color: #333 !important;
+        font-weight: 500;
+    }
+
+        .navbar .nav-link:hover {
+            color: #007bff !important;
+        }
+
+/* Hero Section */
+.hero-section {
+    padding: 30px 0; /* smaller top & bottom padding */
+    position: relative;
+    color: #333;
+}
+
+    .hero-section h1 {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 2.5rem;
+    }
+
+    .hero-section p.lead {
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-size: 1.25rem;
+    }
+
+    .hero-section::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255,255,255,0.6);
+        z-index: 0;
+    }
+
+    .hero-section > * {
+        position: relative;
+        z-index: 1;
+    }
+
+/* Card hover effects */
+.card:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+
+/* Gradient buttons */
+.btn-primary {
+    background: linear-gradient(45deg, #007bff, #00c6ff);
+    border: none;
+}
+
+.btn-success {
+    background: linear-gradient(45deg, #28a745, #85e085);
+    border: none;
+}
+
+.btn-info {
+    background: linear-gradient(45deg, #17a2b8, #4dd0e1);
+    border: none;
+}
+
+/* Footer styling */
+footer.footer {
+    background-color: rgba(255, 255, 255, 0.95);
+    color: #333;
+    padding: 10px 0;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
